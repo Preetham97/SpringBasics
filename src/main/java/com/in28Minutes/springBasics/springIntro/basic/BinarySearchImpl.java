@@ -3,12 +3,12 @@ package com.in28Minutes.springBasics.springIntro.basic;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-@Component
+@Service
 public class BinarySearchImpl {
 
     private Logger LOGGER = LoggerFactory.getLogger(this.getClass());
